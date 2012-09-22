@@ -1,3 +1,5 @@
+var QUERY_STRING = (function(){
+
 /**
  * Object#toString() ref for stringify().
  */
@@ -385,3 +387,9 @@ function decode(str) {
     return str;
   }
 }
+
+return {
+  'parse' : parseString
+}
+
+})();
